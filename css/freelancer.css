@@ -1,8 +1,13 @@
 /*!
- * Start Bootstrap - Freelancer v4.0.0-beta (http://startbootstrap.com/template-overviews/freelancer)
+ * Start Bootstrap - Freelancer v4.0.0-beta (https://startbootstrap.com/template-overviews/freelancer)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
+#profile-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px; }
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden; }
