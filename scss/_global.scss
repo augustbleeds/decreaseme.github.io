@@ -1,9 +1,17 @@
 // Global styling for this template
 
 #profile-pic {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+}
+
+@media only screen and (max-width: 900px) {
+  #profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+  }
 }
 
 body {
@@ -88,7 +96,7 @@ section {
 
 section.success {
   color: white;
-  background: $theme-success;
+  background: $theme-primary;
 }
 @media(max-width:767px) {
   section {

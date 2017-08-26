@@ -4,9 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 #profile-pic {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px; }
+  height: 400px;
+  width: 400px;
+  border-radius: 200px; }
+
+@media only screen and (max-width: 900px) {
+  #profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px; } }
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -80,7 +86,7 @@ section {
 
 section.success {
   color: white;
-  background: #18BC9C; }
+  background: #2C3E50; }
 
 @media (max-width: 767px) {
   section {
@@ -168,7 +174,7 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #18BC9C; }
+  background: #2C3E50; }
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
